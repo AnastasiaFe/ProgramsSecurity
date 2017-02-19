@@ -7,7 +7,7 @@ public class Xor {
     }
 
     private static boolean getResult(boolean a, boolean b) {
-        return a & !b | b & !a;
-        
+        return (a && !b) || (b && !a);
+
     }
 }
